@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types,executor
 import openai
 
 
-bot = Bot(token='2109667277:AAHSui3RY0mRi2URB1RNHqEjl4-0Ef6SjMA')
+bot = Bot(token='5729278564:AAGdikcTbpQXhsumuMLiuNXgf4Bagcn5lBE')
 dp = Dispatcher(bot)
 
 
