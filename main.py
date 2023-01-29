@@ -14,7 +14,7 @@ async def start_cmd(message: types.Message):
 
 
 async def generate_response(prompt):
-    api_key = "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"
+    api_key = "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"
     completions = openai.Completion.create(
         engine="text-davinci-002",
         prompt=prompt,
@@ -36,4 +36,4 @@ async def echo_message(message: types.Message):
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=False)
